@@ -1,11 +1,3 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -15,7 +7,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log(\"Testing Webpack2\")\n\nlet div = document.createElement(\"div\");\ndiv.id = \"title\";\ndiv.className = \"title\";\ndiv.style = \"background-color: blue;\";\ndiv.style.width = \"300px\";\ndiv.style.height = \"200px\";\ndiv.innerHTML= \"test1\";\ndocument.body.appendChild(div);  \n\nlet h1 = document.createElement(\"h1\");\n\nh1.className = \"title\";\nh1.style = \"background-color: blue;\";\nh1.style.width = \"100px\";\nh1.style.height = \"100px\";\nh1.innerHTML= \"Almond Butter Sandwhiches\";\ndocument.getElementById(\"title\").appendChild(h1);  \n\ndiv = document.createElement(\"div\");\ndiv.id = \"promo\";\ndiv.style = \"background-color: green;\";\ndiv.style.width = \"300px\";\ndiv.style.height = \"200px\";\ndiv.innerHTML= \"test1\";\ndocument.body.appendChild(div);  \n\nlet h3 = document.createElement(\"h3\");\n\nh3.className = \"title\";\nh3.style = \"background-color: blue;\";\nh3.style.width = \"400px\";\nh3.style.height = \"100px\";\nh3.innerHTML= \"Have you ever test wondered if you could ever get too many delicious almonds?  Well, now you can find out at Traxler's Almond Emporium!\";\ndocument.getElementById(\"promo\").appendChild(h3);  \n\n\n\n\n\ndiv = document.createElement(\"div\");\ndiv.id = \"div_id\";\ndiv.className = \"div_class\";\ndiv.style = \"background-color: red;\";\ndiv.style.width = \"100px\";\ndiv.style.height = \"100px\";\ndiv.innerHTML= \"Almond Butter Sandwhiches\";\ndocument.body.appendChild(div);  \n\n\n//# sourceURL=webpack://restaurantpage/./src/index.js?");
+throw new Error("Module parse failed: Unexpected token (55:1)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n| document.body.appendChild(div);  \n| }\n>  })()\n| ;\n| ");
 
 /***/ })
 
@@ -24,9 +16,10 @@ eval("console.log(\"Testing Webpack2\")\n\nlet div = document.createElement(\"di
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
 /******/ 	var __webpack_exports__ = {};
 /******/ 	__webpack_modules__["./src/index.js"]();
 /******/ 	
 /******/ })()
 ;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7O1VDQUE7VUFDQTtVQUNBO1VBQ0E7VUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3Jlc3RhdXJhbnRwYWdlL3dlYnBhY2svYmVmb3JlLXN0YXJ0dXAiLCJ3ZWJwYWNrOi8vcmVzdGF1cmFudHBhZ2Uvd2VicGFjay9zdGFydHVwIiwid2VicGFjazovL3Jlc3RhdXJhbnRwYWdlL3dlYnBhY2svYWZ0ZXItc3RhcnR1cCJdLCJzb3VyY2VzQ29udGVudCI6WyIiLCIvLyBzdGFydHVwXG4vLyBMb2FkIGVudHJ5IG1vZHVsZSBhbmQgcmV0dXJuIGV4cG9ydHNcbi8vIFRoaXMgZW50cnkgbW9kdWxlIGRvZXNuJ3QgdGVsbCBhYm91dCBpdCdzIHRvcC1sZXZlbCBkZWNsYXJhdGlvbnMgc28gaXQgY2FuJ3QgYmUgaW5saW5lZFxudmFyIF9fd2VicGFja19leHBvcnRzX18gPSB7fTtcbl9fd2VicGFja19tb2R1bGVzX19bXCIuL3NyYy9pbmRleC5qc1wiXSgpO1xuIiwiIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9
