@@ -1,5 +1,12 @@
 console.log("Testing Webpack2")
+import {pageLoad} from './pageLoad.js'
+import {pluse} from './pageLoad.js'
 
+
+pageLoad();
+
+/*
+function pageLoad1() {
 let div = document.createElement("div");
 div.id = "title";
 div.className = "title";
@@ -15,7 +22,7 @@ h1.className = "title";
 h1.style = "background-color: blue;";
 h1.style.width = "100px";
 h1.style.height = "100px";
-h1.innerHTML= "Almond Butter Sandwhiches";
+h1.innerHTML= "Almond Butter Sandwhiches testing4"+pluse();
 document.getElementById("title").appendChild(h1);  
 
 div = document.createElement("div");
@@ -47,3 +54,5 @@ div.style.width = "100px";
 div.style.height = "100px";
 div.innerHTML= "Almond Butter Sandwhiches";
 document.body.appendChild(div);  
+
+}*/
